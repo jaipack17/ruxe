@@ -42,7 +42,7 @@ let textwrapped = wrap("Harry has a little farm, he has 4 cows, 15 chickens and 
 
 console.log(textwrapped); //each line of he paragraph will have 4 words, text color will be cyan in color and alignment of the paragraph will be left.
 ```
-Output:
+Output (Cyan):
 ```sh-session
 Harry has a little farm  he has 4
 cows  15 chickens and 3 goats in
