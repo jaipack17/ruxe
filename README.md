@@ -16,8 +16,8 @@
 
 ## Installation
 
-```bash
-$ npm install ruxe
+```diff
+npm install ruxe
 ```
 
 ## Parameters
