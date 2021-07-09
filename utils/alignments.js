@@ -1,1 +1,1 @@
-module.exports = ["right", "left", "center"]
+module.exports = ["right", "left"]

@@ -2,7 +2,6 @@
  * _config = {
  *   color: string,
  *   align: string,
- *   format: string,
  *   separateAt: integer
  * }
  */
@@ -28,14 +27,14 @@ module.exports = function (_str, _config) {
         if(!_config) return [ color, align, separateAt ];
         if (_config.color && _config.color.toLowerCase() in colors) color = colors[_config.color.toLowerCase()];
         if (_config.align && alignments.includes(_config.align.toLowerCase())) align = _config.align;
-        if (_config.separateAt && _config.separateAt) separateAt = _config.separateAt;
+        if (_config.separateAt) separateAt = _config.separateAt;
 
         return [ color, align, separateAt ];
     }
 
     function edit(s, p) {
         let res = "";
-        let words = s.split(" ");
+        let words = s.split(config.wordSeparater);
             
         for(var i = 0; i < words.length; i++) {
             if (i != 0 && i%p[2] == 0) {
@@ -78,6 +77,7 @@ module.exports = function (_str, _config) {
 
             return fin;
         }
+        /*
         else if (p[1] == "center") {
             for(var i = 0; i < a.length; i++){
                 let spaces = Math.round((maxLen - a[i].length)/2); 
@@ -90,7 +90,7 @@ module.exports = function (_str, _config) {
 
             return fin;
         }
-
+        */
         return s;
     }
 
