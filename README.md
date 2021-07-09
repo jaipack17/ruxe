@@ -7,6 +7,7 @@
   <p>
     <a href="https://www.npmjs.com/package/ruxe"><img src="https://img.shields.io/npm/v/ruxe.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/ruxe.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://github.com/jaipack17/ruxe"><img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="github" /></a>
   </p>
 </div>
 
