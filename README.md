@@ -58,3 +58,7 @@ farm and modern irrigation systems!
 ## 🤝 Contribution
 
 For contributing to this project, fork the repository [here](https://github.com/jaipack17/ruxe), make the changes and open a pull request! Pull requests will be reviewed before being merged.
+
+## 🐛 Bugs
+
+Found a bug? Having an issue with the package? Open a new issue [here](https://github.com/jaipack17/ruxe/issues)!
