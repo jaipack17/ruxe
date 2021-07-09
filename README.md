@@ -16,8 +16,8 @@
 
 ## Installation
 
-```sh-session
-npm install ruxe
+```bash
+$ npm install ruxe
 ```
 
 ## Parameters
