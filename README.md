@@ -31,7 +31,7 @@ The `wrap()` function requires atleast 1 parameter. And maximum of 2 parameters.
 By default `color` parameter is treated as `white`, the `align` parameter is treated as `left` and `separateAt` is treated as `13`
 
 **Available Colors:** black, red, green, yellow, blue, magenta, cyan and white
-**Available Alignment Formats:** left, center and right
+**Available Alignment Formats:** left and right (Center will be added in the next version.)
 
 ## Example Usage
 
