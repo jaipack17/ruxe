@@ -43,8 +43,7 @@ module.exports = function (_str, _config) {
                 res += words[i] + " ";
             }
         }
-
-        return res.replace(/,/g, " ");
+        return res.replace(/(\s)\1+/g, '$1');
     }
 
     function paint(s, p) {
