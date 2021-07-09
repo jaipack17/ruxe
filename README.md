@@ -43,6 +43,8 @@ let textwrapped = wrap("Harry has a little farm, he has 4 cows, 15 chickens and 
 console.log(textwrapped); //each line of he paragraph will have 4 words, text color will be cyan in color and alignment of the paragraph will be left.
 ```
 
-**For more examples [click me!]()**
+**For more examples [click me!](https://github.com/jaipack17/ruxe/tree/main/examples)**
 
+## Contribution
 
+For contributing to this project, fork the repository, make the changes and open a pull request! Pull requests will be reviewed before being merged.
