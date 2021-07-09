@@ -12,7 +12,7 @@
 
 ## About
 
-[Ruxe](https://www.npmjs.com/package/ruxe) is an open-source npm package used to wrap text into paragraphs for command line interfaces. It takes 2 lines of code to that. And saves you a lot of time for formatting text. You can also change paragraph colors and change the alignment of the paragraph in seconds.
+[Ruxe](https://www.npmjs.com/package/ruxe) is an open-source npm package used to wrap text into paragraphs for command line interfaces. It takes 2 lines of code to do that. And saves you a lot of time for formatting text. You can also change paragraph colors and change the alignment of the paragraph in seconds.
 
 ## Installation
 
@@ -42,7 +42,7 @@ let textwrapped = wrap("Harry has a little farm, he has 4 cows, 15 chickens and 
 
 console.log(textwrapped); //each line of he paragraph will have 4 words, text color will be cyan in color and alignment of the paragraph will be left.
 ```
-Output (Cyan):
+Output:
 ```sh-session
 Harry has a little farm  he has 4
 cows  15 chickens and 3 goats in
@@ -57,4 +57,4 @@ farm and modern irrigation systems!
 
 ## Contribution
 
-For contributing to this project, fork the repository, make the changes and open a pull request! Pull requests will be reviewed before being merged.
+For contributing to this project, fork the repository [here](https://github.com/jaipack17/ruxe), make the changes and open a pull request! Pull requests will be reviewed before being merged.
