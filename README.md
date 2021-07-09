@@ -8,5 +8,9 @@
     <a href="https://www.npmjs.com/package/ruxe"><img src="https://img.shields.io/npm/v/ruxe.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/ruxe.svg?maxAge=3600" alt="NPM downloads" /></a>
   </p>
-
 </div>
+
+## About
+
+Ruxe is an open-source npm package used to wrap text into paragraphs for command line interfaces. It takes 2 lines of code to that. And saves you a lot of time for formatting text. You can also change paragraph colors and change the alignment of the paragraph in seconds.
+
