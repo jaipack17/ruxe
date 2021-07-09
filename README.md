@@ -29,7 +29,7 @@ The `wrap()` function requires atleast 1 parameter. And maximum of 2 parameters.
 <br/>
 By default `color` parameter is treated as `white`, the `align` parameter is treated as `left` and `separateAt` is treated as `13`
 <br/><br/>
-**Available Colors:** <span style="color:black">black</span>, red, green, yellow, blue, magenta, cyan and white
+**Available Colors:** <span style="color:blue">black</span>, red, green, yellow, blue, magenta, cyan and white
 <br/>
 **Available Alignment Formats:** left and right (Center will be added in the next version.)
 <br/>
