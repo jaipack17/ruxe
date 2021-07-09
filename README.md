@@ -38,9 +38,9 @@ By default `color` parameter is treated as `white`, the `align` parameter is tre
 ```js
 const wrap = require("ruxe");
 
-let textwrapped = wrap("Harry has a little farm, he has 4 cows, 15 chickens and 3 goats in his farm. He likes to grow a variety of crops such as wheat, barley, rice and corn! He loves farming! He also has good storage facilities in the farm and modern irrigation systems!", { color:"cyan", separateAt:7, align:"left" }); 
+let textwrapped = wrap("Harry has a little farm, he has 4 cows, 15 chickens and 3 goats in his farm. He likes to grow a variety of crops such as wheat, barley, rice and corn! He loves farming! He also has good storage facilities in the farm and modern irrigation systems!", { color:"cyan", separateAt:8, align:"left" }); 
 
-console.log(textwrapped); //each line of he paragraph will have 4 words, text color will be cyan in color and alignment of the paragraph will be left.
+console.log(textwrapped); //each line of he paragraph will have 8 words, text color will be cyan in color and alignment of the paragraph will be left.
 ```
 Output:
 ```sh-session
