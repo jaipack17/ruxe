@@ -26,7 +26,7 @@ The `wrap()` function requires atleast 1 parameter. And maximum of 2 parameters.
 `color` - Textcolor of the paragraph :string:<br/>
 `align` - Alignment format of the paragraph :string:<br/>
 `separateAt` - Words after which a new line is created :number:<br/>
-<br/><br/>
+<br/>
 By default `color` parameter is treated as `white`, the `align` parameter is treated as `left` and `separateAt` is treated as `13`
 <br/><br/>
 **Available Colors:** black, red, green, yellow, blue, magenta, cyan and white
