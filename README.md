@@ -10,17 +10,17 @@
   </p>
 </div>
 
-## 💡 About
+## ❓ About
 
 [Ruxe](https://www.npmjs.com/package/ruxe) is an open-source npm package used to wrap text into paragraphs for command line interfaces. It takes 2 lines of code to do that. And saves you a lot of time for formatting text. You can also change paragraph colors and change the alignment of the paragraph in seconds.
 
-## Installation
+## 📥 Installation
 
 ```sh-session
 npm install ruxe
 ```
 
-## Parameters
+## 🗃️ Parameters
 
 The `wrap()` function requires atleast 1 parameter. And maximum of 2 parameters. The first parameter is the `string` that you would like to turn into a paragraph. And the second parameter is a configeration `object` consisting of at most 3 fields. Which are - <br/><br/>
 `color` - Textcolor of the paragraph :string:<br/>
@@ -33,7 +33,7 @@ By default `color` parameter is treated as `white`, the `align` parameter is tre
 <br/>
 **Available Alignment Formats:** left and right (Center will be added in the next version.)
 <br/>
-## Example Usage
+## 💡 Example Usage
 
 ```js
 const wrap = require("ruxe");
@@ -55,6 +55,6 @@ farm and modern irrigation systems!
 
 **For more examples [click me!](https://github.com/jaipack17/ruxe/tree/main/examples)**
 
-## Contribution
+## 🤝 Contribution
 
 For contributing to this project, fork the repository [here](https://github.com/jaipack17/ruxe), make the changes and open a pull request! Pull requests will be reviewed before being merged.
