@@ -16,7 +16,7 @@
 
 ## Installation
 
-```diff
+```sh-session
 npm install ruxe
 ```
 
