@@ -25,9 +25,9 @@ npm install ruxe
 The `wrap()` function requires atleast 1 parameter. And maximum of 2 parameters. The first parameter is the `string` that you would like to turn into a paragraph. And the second parameter is a configeration `object` consisting of at most 3 fields. Which are - <br/><br/>
 `color` - Textcolor of the paragraph :string:<br/>
 `align` - Alignment format of the paragraph :string:<br/>
-`separateAt` - Words after which a new line is created :number:<br/>
+`wordsPerLine` - Words after which a new line is created :number:<br/>
 <br/>
-By default `color` parameter is treated as `white`, the `align` parameter is treated as `left` and `separateAt` is treated as `13`
+By default `color` parameter is treated as `white`, the `align` parameter is treated as `left` and `wordsPerLine` is treated as `13`
 <br/><br/>
 **Available Colors:** black, red, green, yellow, blue, magenta, cyan and white
 <br/>
@@ -38,7 +38,7 @@ By default `color` parameter is treated as `white`, the `align` parameter is tre
 ```js
 const wrap = require("ruxe");
 
-let textwrapped = wrap("Harry has a little farm, he has 4 cows, 15 chickens and 3 goats in his farm. He likes to grow a variety of crops such as wheat, barley, rice and corn! He loves farming! He also has good storage facilities in the farm and modern irrigation systems!", { color:"cyan", separateAt:8, align:"left" }); 
+let textwrapped = wrap("Harry has a little farm, he has 4 cows, 15 chickens and 3 goats in his farm. He likes to grow a variety of crops such as wheat, barley, rice and corn! He loves farming! He also has good storage facilities in the farm and modern irrigation systems!", { color:"cyan", wordsPerLine:8, align:"left" }); 
 
 console.log(textwrapped); //each line of he paragraph will have 8 words, text color will be cyan in color and alignment of the paragraph will be left.
 ```
