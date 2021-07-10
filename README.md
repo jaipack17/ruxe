@@ -31,7 +31,7 @@ By default `color` parameter is treated as `white`, the `align` parameter is tre
 <br/><br/>
 **Available Colors:** black, red, green, yellow, blue, magenta, cyan and white
 <br/>
-**Available Alignment Formats:** left and right (Center will be added in the next version.)
+**Available Alignment Formats:** left, right and center
 <br/>
 ## Example Usage
 
