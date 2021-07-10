@@ -1,11 +1,11 @@
 {
   "name": "ruxe",
-  "version": "1.0.12",
+  "version": "1.2.0",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["string", "cli", "text", "wrap", "paragraph", "manipulation","para", "stanza", "format", "color"],
+  "keywords": ["cli", "string", "text", "wrap", "paragraph", "manipulation","para", "stanza", "format", "color", "console", "formatting", "command-line-tool"],
   "author": "jaipack17",
   "license": "MIT",
   "directories": {

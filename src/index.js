@@ -2,7 +2,7 @@
  * _config = {
  *   color: string,
  *   align: string,
- *   separateAt: integer
+ *   wordsPerLine: integer
  * }
  */
 
@@ -10,26 +10,36 @@ const config = require("../config/default");
 const alignments = require("../utils/alignments");
 const colors = require("../utils/colors");
 
+/**
+ * 
+ * @param {string} _str 
+ * @param {object} _config 
+ * @param {string} _config.color
+ * @param {string} _config.align
+ * @param {string} _config.wordsPerLine
+ * @returns {string}
+ */
+
 module.exports = function (_str, _config) {
     function typechecks() {
         if (typeof _config != "object" && typeof _config != "undefined") throw new TypeError("config must be an object.");
         if (typeof _config == "undefined") return;
         if (typeof _config.color != "undefined" && typeof _config.color != "string") throw new TypeError("config.color must be a string.");
         if (typeof _config.align != "undefined" && typeof _config.align != "string") throw new TypeError("config.align must be a string.");
-        if (typeof _config.separateAt != "undefined" && typeof _config.separateAt != "number") throw new TypeError("config.separateAt must be a string.");
+        if (typeof _config.wordsPerLine != "undefined" && typeof _config.wordsPerLine != "number") throw new TypeError("config.wordsPerLine must be a string.");
     }
 
     function setParams() {
         var color = config.color;
         var align = config.align;
-        var separateAt = config.separateAt;
+        var wordsPerLine = config.wordsPerLine;
 
-        if(!_config) return [ color, align, separateAt ];
+        if(!_config) return [ color, align, wordsPerLine ];
         if (_config.color && _config.color.toLowerCase() in colors) color = colors[_config.color.toLowerCase()];
         if (_config.align && alignments.includes(_config.align.toLowerCase())) align = _config.align;
-        if (_config.separateAt) separateAt = _config.separateAt;
+        if (_config.wordsPerLine) wordsPerLine = _config.wordsPerLine;
 
-        return [ color, align, separateAt ];
+        return [ color, align, wordsPerLine ];
     }
 
     function edit(s, p) {
