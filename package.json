@@ -1,16 +1,33 @@
 {
   "name": "ruxe",
-  "version": "1.2.0",
+  "version": "1.2.4",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cli", "string", "text", "wrap", "paragraph", "manipulation","para", "stanza", "format", "color", "console", "formatting", "command-line-tool"],
+  "keywords": [
+    "cli",
+    "string",
+    "text",
+    "wrap",
+    "paragraph",
+    "manipulation",
+    "para",
+    "stanza",
+    "format",
+    "color",
+    "console",
+    "formatting",
+    "command-line-tool"
+  ],
   "author": "jaipack17",
   "license": "MIT",
   "directories": {
     "example": "examples"
   },
   "description": "format strings into paragraphs along with text styling.",
-  "repository": "https://github.com/jaipack17/ruxe"
+  "repository": "https://github.com/jaipack17/ruxe",
+  "dependencies": {
+    "center-align": "^1.0.1"
+  }
 }

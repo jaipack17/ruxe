@@ -9,6 +9,7 @@
 const config = require("../config/default");
 const alignments = require("../utils/alignments");
 const colors = require("../utils/colors");
+var center = require('center-align');
 
 /**
  * 
@@ -86,20 +87,14 @@ module.exports = function (_str, _config) {
 
             return fin;
         }
-        /*
         else if (p[1] == "center") {
-            for(var i = 0; i < a.length; i++){
-                let spaces = Math.round((maxLen - a[i].length)/2); 
-                if(spaces == 0) {
-                    fin += " ".repeat(5) + a[i] + "\n"
-                } else {
-                    fin += " ".repeat(spaces) + a[i] + "\n";
-                }
-            }
+            let centered = center(a);
+            centered.forEach(line => {
+                fin += line + "\n";
+            })
 
             return fin;
         }
-        */
         return s;
     }
 
