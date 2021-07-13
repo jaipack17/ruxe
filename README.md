@@ -8,6 +8,8 @@
     <a href="https://www.npmjs.com/package/ruxe"><img src="https://img.shields.io/npm/v/ruxe.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/ruxe"><img src="https://img.shields.io/npm/dt/ruxe.svg?maxAge=3600" alt="NPM downloads" /></a>
     <a href="https://www.codefactor.io/repository/github/jaipack17/ruxe"><img src="https://www.codefactor.io/repository/github/jaipack17/ruxe/badge" alt="CodeFactor" /></a>
+    <a href="https://github.com/jaipack17/ruxe/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/github-contribute-black" alt="contribute" /></a>
+    <a href="https://www.github.com/jaipack17/ruxe/issues"><img src="https://img.shields.io/badge/issues-bugs-red" alt="issues" /></a>
   </p>
 </div>
 
