@@ -7,6 +7,7 @@
   <p>
     <a href="https://www.npmjs.com/package/ruxe"><img src="https://img.shields.io/npm/v/ruxe.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/ruxe"><img src="https://img.shields.io/npm/dt/ruxe.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.codefactor.io/repository/github/jaipack17/ruxe"><img src="https://www.codefactor.io/repository/github/jaipack17/ruxe/badge" alt="CodeFactor" /></a>
   </p>
 </div>
 
